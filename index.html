@@ -3,241 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="NDN Ish. Indigenous-designed apparel for Native life, humor, and shared experience.">
-  <title>NDN Ish | Everyday NDN</title>
+  <meta name="description" content="NDN ISH. Indigenous owned. Everyday Indian. Made for Native life. Our online shop is coming soon.">
+  <title>NDN ISH | Coming Soon</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .site-header {grid-template-columns:1fr auto;}
+    .coming-header-note {font:500 10px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--cream)}
+    .hero {min-height:690px;height:min(88vh,900px);max-height:none;}
+    .hero-copy {padding-top:clamp(90px,12vh,150px);}
+    .hero h1 {font-size:clamp(96px,12vw,180px)}
+    .coming-soon {margin:40px 0 0;font:800 clamp(40px,5.5vw,82px)/.9 var(--condensed);letter-spacing:-.02em;color:var(--bone)}
+    .hero-statement {margin-top:28px;font-size:clamp(24px,2.5vw,39px);line-height:1.03}
+    .coming-detail {margin:24px 0 0;max-width:370px;color:#c7c1b6;font:400 13px/1.7 var(--sans)}
+    .hero-actions {margin-top:35px;align-items:center;justify-content:flex-start;}
+    .hero-actions .button {min-width:190px}
+    .hero-edition {color:#f1efe9;text-shadow:0 1px 5px #000}
+    .landing-bottom {padding:48px 4vw 56px;display:flex;justify-content:space-between;gap:30px;align-items:center;border-top:1px solid var(--line)}
+    .landing-bottom p {margin:0;font:500 10px/1.8 var(--mono);letter-spacing:.07em}
+    .landing-bottom .muted {color:#b8b0a4}
+    @media(max-width:1000px){.hero{height:auto;min-height:0}.hero-copy{padding:60px 6vw 70px}.hero-actions{margin-top:35px}.hero-image{min-height:400px}}
+    @media(max-width:620px){.site-header{grid-template-columns:1fr auto}.coming-header-note{font-size:8px}.hero-image{min-height:310px}.hero-copy{padding:50px 6vw 60px}.hero h1{font-size:clamp(100px,23vw,155px)}.coming-soon{font-size:55px}.hero-statement{font-size:30px}.landing-bottom{flex-direction:column;align-items:flex-start}}
+  </style>
 </head>
 <body>
-  <div class="announcement">
-    <span>NDN ISH / INDIGENOUS DESIGNED + OWNED</span>
-    <span>EVERYDAY NDN / LAUNCH COLLECTION</span>
-  </div>
-
+  <div class="announcement"><span>NDN ISH / INDIGENOUS DESIGNED + OWNED</span><span>EST. 2026 / GREAT LAKES</span></div>
   <header class="site-header">
-    <a class="wordmark" href="#top" aria-label="NDN Ish home">
-      <img src="assets/ndn-ish-cream-on-black.png" alt="NDN Ish">
-    </a>
-    <nav class="desktop-nav" aria-label="Primary navigation">
-      <a href="#everyday">Everyday NDN</a>
-      <a href="#shop">Shop</a>
-      <a href="#heritage">Heritage</a>
-      <a href="#about">About</a>
-    </nav>
-    <div class="header-actions">
-      <a class="text-button" href="#circle">Join the circle</a>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">
-        <span></span><span></span><span class="sr-only">Menu</span>
-      </button>
-    </div>
-    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation">
-      <a href="#everyday">Everyday NDN</a>
-      <a href="#shop">Shop</a>
-      <a href="#heritage">Heritage</a>
-      <a href="#about">About</a>
-      <a href="#circle">Join the circle</a>
-    </nav>
+    <a class="wordmark" href="#top" aria-label="NDN ISH home"><img src="assets/ndn-ish-cream-on-black.png" alt="NDN ISH"></a>
+    <span class="coming-header-note">ONLINE SHOP / COMING SOON</span>
   </header>
-
   <main id="top">
     <section class="hero">
-      <div class="hero-image" aria-label="Everyday NDN summer apparel collection">
+      <div class="hero-image" role="img" aria-label="NDN ISH original apparel campaign">
         <div class="hero-logo"><img src="assets/ndn-ish-cream-on-black.png" alt=""></div>
-        <p class="hero-edition">EST. 2026 / GREAT LAKES</p>
+        <p class="hero-edition">INDIGENOUS OWNED / MADE FOR NATIVE LIFE</p>
       </div>
       <div class="hero-copy">
         <p class="eyebrow">INDIGENOUS STREETWEAR / EVERYDAY LIFE</p>
         <h1>NDN<br>ISH</h1>
+        <p class="coming-soon">COMING<br>SOON.</p>
         <p class="hero-statement">NOT INSPIRED BY CULTURE.<br><span>FROM IT.</span></p>
-        <div class="hero-actions">
-          <a class="button button-light" href="#shop">Shop Everyday NDN <b>↗</b></a>
-          <p>Native humor. Native life.<br>The things only we understand.</p>
-        </div>
+        <p class="coming-detail">Indigenous owned. Everyday Indian. Made for Native life.<br>Our online shop is on its way.</p>
+        <div class="hero-actions"><a class="button button-light" href="mailto:ndnishllc@gmail.com?subject=NDN%20ISH%20Inquiry">GET IN TOUCH <b>↗</b></a></div>
       </div>
     </section>
-
-    <div class="ticker" aria-hidden="true">
-      <div>
-        <span>MADE FOR NATIVE LIFE</span><i>+</i><span>INDIGENOUS OWNED</span><i>+</i>
-        <span>EVERYDAY NDN</span><i>+</i><span>MADE FOR NATIVE LIFE</span><i>+</i>
-        <span>INDIGENOUS OWNED</span><i>+</i><span>EVERYDAY NDN</span><i>+</i>
-      </div>
-    </div>
-
-    <section class="everyday section" id="everyday">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">LAUNCH COLLECTION / 001</p>
-          <h2>EVERYDAY<br>NDN<span>™</span></h2>
-        </div>
-        <p class="section-intro">Native humor.<br>Native life.<br>Shared experiences.<br>The things only we understand.</p>
-      </div>
-
-      <div class="campaign">
-        <div class="campaign-image">
-          <img src="assets/everyday-ndn-summer-campaign.png" alt="Black, cream, and white T-shirts, tank top, hats, tote bag, and stickers">
-          <div class="campaign-mark"><img src="assets/ndn-ish-cream-on-black.png" alt=""></div>
-          <span>SUMMER 2026 / FIRST RELEASE</span>
-        </div>
-        <aside class="campaign-copy">
-          <p class="eyebrow">WE KNOW THE FEELING</p>
-          <h3>FOR THE COOKOUT.<br>THE POWWOW.<br>THE GAS STATION RUN.</h3>
-          <p>Easy pieces for everyday Native life. Wear the joke, the identity, and the shared experience without explaining any of it.</p>
-          <a href="#shop">Shop the launch collection <b>↗</b></a>
-        </aside>
-      </div>
-    </section>
-
-    <section class="shop section" id="shop">
-      <div class="section-head shop-head">
-        <div>
-          <p class="eyebrow">SHOP / READY FOR THE EVERYDAY</p>
-          <h2>THE LAUNCH<br>LINEUP.</h2>
-        </div>
-        <div class="product-tabs" role="tablist" aria-label="Product filters">
-          <button class="active" type="button" data-filter="all">All</button>
-          <button type="button" data-filter="apparel">Apparel</button>
-          <button type="button" data-filter="headwear">Headwear</button>
-          <button type="button" data-filter="goods">Goods</button>
-        </div>
-      </div>
-
-      <div class="product-grid">
-        <article class="product-card" data-category="apparel">
-          <div class="product-image product-tee">
-            <img src="assets/product-everyday-tee.png" alt="Washed black Everyday NDN T-shirt concept">
-            <span class="product-art text-art">EVERYDAY<br>NDN</span>
-            <span class="badge">LAUNCH PIECE</span>
-          </div>
-          <div class="product-info"><div><h3>EVERYDAY NDN TEE</h3><p>Washed black / Unisex</p></div><span>SHOP SOON</span></div>
-        </article>
-
-        <article class="product-card" data-category="apparel">
-          <div class="product-image product-crop">
-            <img src="assets/product-crop-tee.png" alt="White NDN Ish crop top concept">
-            <img class="official-product-logo crop-logo" src="assets/ndn-ish-black.png" alt="">
-          </div>
-          <div class="product-info"><div><h3>NDN ISH CROP TEE</h3><p>White / Relaxed fit</p></div><span>SHOP SOON</span></div>
-        </article>
-
-        <article class="product-card" data-category="apparel">
-          <div class="product-image product-tank">
-            <img src="assets/product-rib-tank.png" alt="Bone ribbed NDN Ish tank top concept">
-            <img class="official-product-logo tank-logo" src="assets/ndn-ish-black.png" alt="">
-          </div>
-          <div class="product-info"><div><h3>EVERYDAY RIB TANK</h3><p>Bone / Fitted</p></div><span>SHOP SOON</span></div>
-        </article>
-
-        <article class="product-card" data-category="headwear">
-          <div class="product-image product-dad-hat">
-            <img src="assets/product-dad-hat.png" alt="Washed black NDN Ish dad hat concept">
-            <img class="official-product-logo dad-logo logo-invert" src="assets/ndn-ish-cream-on-black.png" alt="">
-          </div>
-          <div class="product-info"><div><h3>NDN DAD HAT</h3><p>Washed black / Embroidered</p></div><span>SHOP SOON</span></div>
-        </article>
-
-        <article class="product-card" data-category="headwear">
-          <div class="product-image product-trucker">
-            <img src="assets/product-trucker-hat.png" alt="Bone NDN Ish trucker hat concept">
-            <img class="official-product-logo trucker-logo" src="assets/ndn-ish-black.png" alt="">
-          </div>
-          <div class="product-info"><div><h3>NDN ISH TRUCKER</h3><p>Bone / Mesh back</p></div><span>SHOP SOON</span></div>
-        </article>
-
-        <article class="product-card" data-category="goods">
-          <div class="product-image product-tote">
-            <img src="assets/product-canvas-tote.png" alt="Canvas Everyday NDN tote bag concept">
-            <span class="product-art tote-art dark-ink">EVERYDAY<br>NDN</span>
-          </div>
-          <div class="product-info"><div><h3>EVERYDAY TOTE</h3><p>Natural canvas</p></div><span>SHOP SOON</span></div>
-        </article>
-
-        <article class="product-card" data-category="goods">
-          <div class="product-image sticker-card">
-            <div class="sticker sticker-one"><img src="assets/ndn-ish-cream-on-black.png" alt="NDN Ish handwritten logo sticker"></div>
-            <div class="sticker sticker-two">EVERYDAY<br>NDN</div>
-            <div class="sticker sticker-three">FROM IT.</div>
-            <span class="badge dark">3 PACK</span>
-          </div>
-          <div class="product-info"><div><h3>NDN ISH STICKER PACK</h3><p>Three die-cut stickers</p></div><span>SHOP SOON</span></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="heritage section" id="heritage">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">FUTURE COLLECTIONS / IN DEVELOPMENT</p>
-          <h2>HERITAGE<br>COLLECTION.</h2>
-        </div>
-        <p class="section-intro">Premium statements.<br>Built with more time.<br>Coming when they're ready.</p>
-      </div>
-
-      <div class="heritage-grid">
-        <article class="heritage-card heritage-rez">
-          <span>01 / COMING SOON</span><h3>REZZILATIONZ</h3><p>Resilience. Survival. Adaptation.</p>
-        </article>
-        <article class="heritage-card heritage-indigenous">
-          <span>02 / COMING SOON</span><h3>INDIGENOUS</h3><p>Identity. Visibility. Existence.</p>
-        </article>
-        <article class="heritage-card heritage-anishinaabe">
-          <span>03 / COMING SOON</span><h3>ANISHINAABE</h3><p>Language. Culture. Heritage.</p>
-        </article>
-        <article class="heritage-card heritage-savage">
-          <span>04 / COMING SOON</span><h3>SAVAGE</h3><p>Reclaimed. Reframed. Ours.</p>
-        </article>
-        <article class="heritage-card heritage-land">
-          <span>05 / COMING SOON</span><h3>LAND BACK</h3><p>More than a statement.</p>
-        </article>
-      </div>
-      <div class="heritage-note">
-        <span>PREMIUM HOODIES</span><span>RIBBON-POCKET PIECES</span><span>EMBROIDERED APPAREL</span><span>LIMITED RELEASES</span>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="about-logo"><img src="assets/ndn-ish-cream-on-black.png" alt="Official NDN Ish logo"></div>
-      <div class="about-copy">
-        <p class="eyebrow">ABOUT NDN ISH</p>
-        <h2>INDIGENOUS<br>DESIGNED.<br>INDIGENOUS<br>OWNED.<br><span>INDIGENOUS LIVED.</span></h2>
-        <p>NDN Ish makes contemporary apparel rooted in the humor, language, identity, and everyday experiences that belong to us.</p>
-      </div>
-    </section>
-
-    <section class="signup" id="circle">
-      <div>
-        <p class="eyebrow">STAY CLOSE</p>
-        <h2>JOIN THE<br>CIRCLE.</h2>
-      </div>
-      <div class="signup-side">
-        <p>Be first to hear about new drops, limited releases, and future collections.</p>
-        <form class="signup-form">
-          <label class="sr-only" for="email">Email address</label>
-          <input id="email" type="email" placeholder="EMAIL ADDRESS" required>
-          <button type="submit">Join the circle ↗</button>
-        </form>
-      </div>
-    </section>
+    <div class="ticker" aria-hidden="true"><div><span>MADE FOR NATIVE LIFE</span><i>+</i><span>INDIGENOUS OWNED</span><i>+</i><span>EVERYDAY NDN</span><i>+</i><span>COMING SOON</span><i>+</i><span>MADE FOR NATIVE LIFE</span><i>+</i><span>INDIGENOUS OWNED</span><i>+</i><span>EVERYDAY NDN</span><i>+</i><span>COMING SOON</span><i>+</i></div></div>
   </main>
-
-  <footer>
-    <div class="footer-top">
-      <a class="footer-logo" href="#top"><img src="assets/ndn-ish-cream-on-black.png" alt="NDN Ish"></a>
-      <div class="footer-links">
-        <div><span>SHOP</span><a href="#everyday">Everyday NDN</a><a href="#shop">All products</a><a href="#heritage">Coming soon</a></div>
-        <div><span>FOLLOW</span><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">Facebook</a></div>
-        <div><span>INFO</span><a href="mailto:hello@ndnish.com">Contact</a><a href="#">Shipping</a><a href="#">Policies</a></div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© 2026 NDN ISH LLC</span>
-      <span>NOT INSPIRED BY CULTURE. FROM IT.</span>
-    </div>
-  </footer>
-
-  <div class="toast" role="status" aria-live="polite">Welcome to the circle.</div>
-  <script src="script.js"></script>
+  <footer class="landing-bottom"><p>© 2026 NDN ISH LLC<br><span class="muted">INDIGENOUS DESIGNED. INDIGENOUS OWNED.</span></p><p>NOT INSPIRED BY CULTURE. FROM IT.</p></footer>
 </body>
 </html>
